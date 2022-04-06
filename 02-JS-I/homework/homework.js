@@ -36,21 +36,21 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  suma(3, 5)
+  suma(3 + 5)
   
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  resta(8, 7)
+  resta(8 - 7)
   
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  multiplica(2, 3)
+  multiplica(2 * 3)
   
 }
 
