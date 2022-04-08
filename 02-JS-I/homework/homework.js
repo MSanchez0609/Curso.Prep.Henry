@@ -121,9 +121,9 @@ function esPar(num) {
   // Tu código:
   if (num % 2) == 0;
   return true;
-}
+  }
 
-return false
+  return false
   
 }
 
