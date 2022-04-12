@@ -81,9 +81,9 @@ function tienenMismaLongitud(str1, str2) {
   if ('hola' == 'chau') {
     return true;
   }
-  
   return false;
 }
+tienenMismaLongitud('hola' == 'chau')
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
@@ -104,7 +104,7 @@ function mayorQueCincuenta(num) {
     return true;
   }
 
-  return false
+  return false;
 }
 
 function obtenerResto(x, y) {
