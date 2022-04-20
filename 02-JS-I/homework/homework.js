@@ -260,7 +260,7 @@ function esVocal(letra){
     if (letra.length !== 1 || letra !== 'a','e','i','o','u') {
       return "Dato incorrecto";
     }
-    if (letra = 'a', 'e', 'i', 'o', 'u') {
+    if (letra == 'a', 'e', 'i', 'o', 'u') {
       return "Es vocal";
       }
   }
