@@ -259,7 +259,7 @@ function esVocal(letra){
   //Escribe tu código aquí
   var Vocal = 'aeiou';
   if (letra = Vocal) {
-    return "es vocal";
+    return "Es vocal";
     }
     if (letra.length !== 1) {
       return "Dato incorrecto";
