@@ -260,10 +260,10 @@ function esVocal(letra){
   if (letra = "a", "e", "i", "o", "u") {
     return "Es vocal";
   }
-    if (letra > 1) {
+    if (letra.length != 1) {
       return "Dato incorrecto";
     }
-    if (letra !== "a", "e", "i", "o", "u") {
+    if (letra != "a", "e", "i", "o", "u") {
       return "Dato incorrecto";
     }
   }
