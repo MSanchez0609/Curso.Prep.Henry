@@ -260,7 +260,7 @@ function esVocal(letra){
     if (letra.length !== 1 || letra !== 'aeiou') {
       return "Dato incorrecto";
     }
-    if (letra == 'aeiou') {
+    else (letra == 'aeiou'); {
       return "Es vocal";
       }
   }
