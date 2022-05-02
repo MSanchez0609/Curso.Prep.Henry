@@ -77,16 +77,16 @@ function colors(color) {
   var text;
   switch (color) {
     case "blue":
-      text = 'This is blue';
+      text = 'This is ${color}';
       break;
     case "red":
-      text = 'This is red';
+      text = 'This is ${color}';
       break;
     case "green":
-      text = 'This is green';
+      text = 'This is ${color}';
       break;
     case "orange":
-      text = 'This is orange';
+      text = 'This is ${color}';
       break;
     default:
       text = 'Color not found';
