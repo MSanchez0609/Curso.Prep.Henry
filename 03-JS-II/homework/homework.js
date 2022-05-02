@@ -55,11 +55,11 @@ function saludo(idioma) {
   if ( idioma = 'aleman') {
     return 'Guten Tag!';
   }
-    if ( idioma = 'mandarin') {
-      return 'Ni Hao!';
+    if ( idioma = 'ingles') {
+      return 'Hello!';
     }
-      if ( idioma = 'ingles') {
-        return 'Hello!';
+      if ( idioma = 'mandarin') {
+        return 'Ni Hao!';
       }
         else {
           return 'Hola!';
