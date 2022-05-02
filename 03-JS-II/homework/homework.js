@@ -89,6 +89,7 @@ function colors(color) {
       break;
     default:
       console.log( 'Color not found');
+      break;
   }
 }
 
