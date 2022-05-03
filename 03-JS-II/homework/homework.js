@@ -100,17 +100,17 @@ function esDiezOCinco(numero) {
   switch (numero) {
     case 10:
       if (numero == 10) {
-        return "true";
+        return true;
       }
     break;
     case 5:
       if (numero == 5) {
-        return "true";
+        return true;
       }
     break;
     default:
       if ( numero !== 10 || numero !== 5) {
-        return "false";
+        return false;
       }  
   }
 }
