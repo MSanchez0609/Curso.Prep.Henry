@@ -122,7 +122,7 @@ function estaEnRango(numero) {
      if (numero > 20 || numero <50) {
       return true;
      }
-      else if (numero > 50 || numero < 20) {
+       if (numero < 20 || numero > 50) {
         return false;
   }
 }
